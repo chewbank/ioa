@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('jmr');
-const typea = require('typea');
+const typea = require('@chewbank/typea');
 const ioa = require('ioa');
 
 test('ioa', t => {
@@ -16,9 +16,9 @@ test('ioa', t => {
     apps: {
       main: {
         components: {
-          '@ioa/config': Object,
-          '@ioa/koa': Object,
-          '@ioa/auth': Object,
+          '@chewbank/ioa-config': Object,
+          '@chewbank/ioa-koa': Object,
+          '@chewbank/ioa-auth': Object,
           '@common': Object,
         },
         beforeMiddleware: [Function],

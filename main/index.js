@@ -2,9 +2,9 @@
 
 const app = require('@app');
 
-app.use('@ioa/config');
-app.use('@ioa/koa');
-app.use('@ioa/auth');
+app.use('@chewbank/ioa-config');
+app.use('@chewbank/ioa-koa');
+app.use('@chewbank/ioa-auth');
 app.use('./@common');
 
 app.loader({

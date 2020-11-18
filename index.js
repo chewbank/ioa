@@ -1,6 +1,6 @@
 'use strict';
 
-const consoln = require('consoln');
+const consoln = require('@chewbank/consoln');
 const argv = require('./lib/argv.js');
 const loaderApp = require('./lib/loaderApp.js');
 const { version } = require('./package.json');

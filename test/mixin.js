@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('jmr');
-const consoln = require('consoln');
+const consoln = require('@chewbank/consoln');
 const mixin = require('../lib/mixin.js');
 
 test('mixin', async t => {

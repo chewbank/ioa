@@ -158,8 +158,8 @@ index.js文件的加载、执行由lloader模块提供，它是构成ioa框架�
 ```js
 const app = require('@app');
 
-app.use('@ioa/config');
-app.use('@ioa/koa');
+app.use('@chewbank/ioa-config');
+app.use('@chewbank/ioa-koa');
 
 app.loader({
    "model": {
