@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-   "@ioa/koa": {
+   '@chewbank/ioa-koa': {
       "port": 8600
    },
 }

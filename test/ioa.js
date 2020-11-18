@@ -122,8 +122,8 @@ test('ioa', t => {
       },
     },
     components: {
-      "@ioa/koa": Object,
-      "@ioa/auth": Object,
+      '@chewbank/ioa-koa': Object,
+      '@chewbank/ioa-auth': Object,
       "@common": Object,
     },
   })

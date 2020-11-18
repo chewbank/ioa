@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-   "@ioa/koa": {
+   '@chewbank/ioa-koa': {
       "port": 8600,
    },
-   "@ioa/auth": {
+   '@chewbank/ioa-auth': {
       "password": "test"
    },
    "mixin": {
