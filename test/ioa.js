@@ -2,9 +2,9 @@
 
 const test = require('jmr');
 const typea = require('@chewbank/typea');
-const ioa = require('ioa');
+const ioa = require('@chewbank/ioa');
 
-test('ioa', t => {
+test('@chewbank/ioa', t => {
 
   const schema = typea({
     argv: Object,

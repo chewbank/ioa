@@ -37,7 +37,7 @@ npm install ioa
 ### Usage
 
 ```js
-const ioa = require('ioa');
+const ioa = require('@chewbank/ioa');
 
 ioa.app("./main");
 ```
@@ -116,7 +116,7 @@ project
 #### 多应用配置示例
 
 ```js
-const ioa = require('ioa');
+const ioa = require('@chewbank/ioa');
 
 ioa.app("./main", "./admin");
 ```

@@ -2,7 +2,7 @@
 
 const test = require('jmr');
 const axios = require('axios');
-const ioa = require('ioa');
+const ioa = require('@chewbank/ioa');
 
 test.axios = axios;
 

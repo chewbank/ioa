@@ -1,4 +1,4 @@
-declare module 'ioa' {
+declare module '@chewbank/ioa' {
 
   /**
    * 加载一个或多个应用

@@ -1,6 +1,6 @@
 'use strict';
 
-const { main } = require('ioa');
+const { main } = require('@chewbank/ioa');
 const { router } = require('@app');
 
 const { cors } = main.middleware;
